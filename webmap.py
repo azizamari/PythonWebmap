@@ -1,4 +1,5 @@
 #Made By Aziz Amari
+#run this python file and it will generate you a.html file open it 
 import folium
 import pandas as pd
 data=pd.read_csv("volcanoes.txt")
@@ -21,5 +22,5 @@ style_function= lambda x:{'fillColor':'red' if x['properties']['POP2005']>150000
 map.add_child(fgp)
 map.add_child(fg)
 map.add_child(folium.LayerControl())
-map.save('Map.html')
+map.save('index.html')
 
