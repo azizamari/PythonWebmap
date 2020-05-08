@@ -1,4 +1,5 @@
-how to use:
+A Webmap made with python and folium library.
+How to use:
     -run the python file and it will generate a html fil in your folder open it.
 example of final result: 
     -https://azizamari.github.io/webmap/
